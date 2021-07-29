@@ -12,6 +12,13 @@ funAnimals.push({
     why: "four legs worth of energy at the cost of three"
 })
 
+funAnimals.push({
+    name: "Peter",
+    type: "tortoise",
+    why: "back yard grass eater"
+})
+
 for (let animal of funAnimals) {
     console.log(`${animal.name} the ${animal.type} is fun.  Why, you ask? ${animal.why}`)
 }
+
